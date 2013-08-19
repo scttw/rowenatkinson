@@ -1,0 +1,91 @@
+[07-Aug-2013 20:52:26 America/Denver] PHP Fatal error:  Couldn't run query: 
+CREATE DATABASE "rowenat1_ss_bulli_dev" 
+
+Access denied for user 'rowenat1_wrdp1'@'localhost' to database 'rowenat1_ss_bulli_dev' in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[07-Aug-2013 20:52:56 America/Denver] PHP Fatal error:  Couldn't run query: 
+CREATE DATABASE "rowenat1_ss_bulli_dev" 
+
+Access denied for user 'rowenat1_wrdp1'@'localhost' to database 'rowenat1_ss_bulli_dev' in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[07-Aug-2013 21:23:02 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "SiteConfig" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_44af_0.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[07-Aug-2013 21:23:02 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_44af_0.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[07-Aug-2013 23:25:58 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_44af_1.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[08-Aug-2013 00:47:06 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_44af_0.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 05:27:05 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "SiteConfig" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_4.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 05:49:05 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "SiteConfig" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_4.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 05:49:05 America/Denver] PHP Fatal error:  Call to a member function setStatusCode() on a non-object in /home4/rowenat1/public_html/bullidev/framework/dev/Debug.php on line 342
+[16-Aug-2013 05:56:28 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "File" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_1.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 06:03:04 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Got error 28 from storage engine in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 06:24:57 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "HomepageFeature" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_3.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 06:28:10 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_8.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 06:46:31 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "SiteTree" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_2.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 06:46:51 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_0.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 06:50:43 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "SiteTree" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_3.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[16-Aug-2013 07:35:24 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Page" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5bfa_1.MYI'; try to repair it in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[19-Aug-2013 00:51:07 America/Denver] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "SiteTree_Live"."ClassName", "SiteTree_Live"."Created", "SiteTree_Live"."LastEdited", "Page_Live"."PageStyle", "Page_Live"."HasBanner", "Page_Live"."BannerContent", "SiteTree_Live"."ID", CASE WHEN "SiteTree_Live"."ClassName" IS NOT NULL THEN "SiteTree_Live"."ClassName" ELSE 'SiteTree' END AS "RecordClassName", "SiteTree_Live"."Sort"
+FROM "SiteTree_Live"
+LEFT JOIN "Page_Live" ON "Page_Live"."ID" = "SiteTree_Live"."ID"
+WHERE ("Page_Live"."ID" = 1) AND ("SiteTree_Live"."ClassName" IN ('Page','ErrorPage','RedirectorPage','VirtualPage','HomePage','UserDefinedForm'))
+ORDER BY "SiteTree_Live"."Sort" ASC
+LIMIT 1 
+
+Unknown column 'Page_Live.BannerContent' in 'field list' in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[19-Aug-2013 00:51:08 America/Denver] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "SiteTree_Live"."ClassName", "SiteTree_Live"."Created", "SiteTree_Live"."LastEdited", "SiteTree_Live"."URLSegment", "SiteTree_Live"."Title", "SiteTree_Live"."MenuTitle", "SiteTree_Live"."Content", "SiteTree_Live"."MetaTitle", "SiteTree_Live"."MetaDescription", "SiteTree_Live"."MetaKeywords", "SiteTree_Live"."ExtraMeta", "SiteTree_Live"."ShowInMenus", "SiteTree_Live"."ShowInSearch", "SiteTree_Live"."Sort", "SiteTree_Live"."HasBrokenFile", "SiteTree_Live"."HasBrokenLink", "SiteTree_Live"."ReportClass", "SiteTree_Live"."CanViewType", "SiteTree_Live"."CanEditType", "SiteTree_Live"."Version", "SiteTree_Live"."WorkflowDefinitionID", "SiteTree_Live"."ParentID", "Page_Live"."PageStyle", "Page_Live"."HasBanner", "Page_Live"."BannerContent", "ErrorPage_Live"."ErrorCode", "SiteTree_Live"."ID", CASE WHEN "SiteTree_Live"."ClassName" IS NOT NULL THEN "SiteTree_Live"."ClassName" ELSE 'SiteTree' END AS "RecordClassName"
+FROM "SiteTree_Live"
+LEFT JOIN "Page_Live" ON "Page_Live"."ID" = "Sit in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[19-Aug-2013 00:51:15 America/Denver] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "SiteTree_Live"."ClassName", "SiteTree_Live"."Created", "SiteTree_Live"."LastEdited", "Page_Live"."PageStyle", "Page_Live"."HasBanner", "Page_Live"."BannerContent", "SiteTree_Live"."ID", CASE WHEN "SiteTree_Live"."ClassName" IS NOT NULL THEN "SiteTree_Live"."ClassName" ELSE 'SiteTree' END AS "RecordClassName", "SiteTree_Live"."Sort"
+FROM "SiteTree_Live"
+LEFT JOIN "Page_Live" ON "Page_Live"."ID" = "SiteTree_Live"."ID"
+WHERE ("Page_Live"."ID" = 1) AND ("SiteTree_Live"."ClassName" IN ('Page','ErrorPage','RedirectorPage','VirtualPage','HomePage','UserDefinedForm'))
+ORDER BY "SiteTree_Live"."Sort" ASC
+LIMIT 1 
+
+Unknown column 'Page_Live.BannerContent' in 'field list' in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580
+[19-Aug-2013 00:51:16 America/Denver] PHP Fatal error:  Couldn't run query: 
+SELECT DISTINCT "SiteTree_Live"."ClassName", "SiteTree_Live"."Created", "SiteTree_Live"."LastEdited", "SiteTree_Live"."URLSegment", "SiteTree_Live"."Title", "SiteTree_Live"."MenuTitle", "SiteTree_Live"."Content", "SiteTree_Live"."MetaTitle", "SiteTree_Live"."MetaDescription", "SiteTree_Live"."MetaKeywords", "SiteTree_Live"."ExtraMeta", "SiteTree_Live"."ShowInMenus", "SiteTree_Live"."ShowInSearch", "SiteTree_Live"."Sort", "SiteTree_Live"."HasBrokenFile", "SiteTree_Live"."HasBrokenLink", "SiteTree_Live"."ReportClass", "SiteTree_Live"."CanViewType", "SiteTree_Live"."CanEditType", "SiteTree_Live"."Version", "SiteTree_Live"."WorkflowDefinitionID", "SiteTree_Live"."ParentID", "Page_Live"."PageStyle", "Page_Live"."HasBanner", "Page_Live"."BannerContent", "ErrorPage_Live"."ErrorCode", "SiteTree_Live"."ID", CASE WHEN "SiteTree_Live"."ClassName" IS NOT NULL THEN "SiteTree_Live"."ClassName" ELSE 'SiteTree' END AS "RecordClassName"
+FROM "SiteTree_Live"
+LEFT JOIN "Page_Live" ON "Page_Live"."ID" = "Sit in /home4/rowenat1/public_html/bullidev/framework/model/MySQLDatabase.php on line 580

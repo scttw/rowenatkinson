@@ -1,0 +1,184 @@
+/* local customisations */
+
+html, body {
+    background: #333;
+    color: #eee;
+}
+
+.fauxbody {
+   -webkit-box-shadow: 20px 0 20px -20px rgba(0, 0, 0, .7), 20px 0 20px -20px rgba(0, 0, 0, .7);
+   box-shadow: 20px 0 20px -20px rgba(0, 0, 0, .7), -20px 0 20px -20px rgba(0, 0, 0, .7);
+   background: #333;
+   z-index: 100;
+   position: relative;
+   padding: 0 20px;
+   max-width: 980px;
+   width: auto;
+   margin: 0 auto;
+}
+
+.bgStretcher {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 378px;
+    background: #ff8000 url(../imgs/headerbg.gif) top left repeat-x;
+    z-index: 0;
+}
+.orange .bgStretcher {
+  background-color: #ff8000;
+}
+.blue .bgStretcher {
+  background-color: #000765;
+}
+.red .bgStretcher {
+  background-color: #7b0707;
+}
+.search label {
+  display: none;
+}
+.search input[type="text"] {
+  width: ;
+}
+ul.nav {
+  background: #fff;
+}
+.strap, footer, header.banner {
+    margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.strap {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  overflow: hidden;
+}
+.orange .strap {
+  background: #ff8000;
+}
+.blue .strap {
+  background: #000765;
+}
+.red .strap {
+  background: #7b0707;
+}
+.strap {}
+.no-banner .bgStretcher {
+    height: 168px;
+}
+.no-banner .strap {
+  background-image: none;
+  height: 40px;
+}
+.no-banner .strap * {
+  display: none;
+}
+.banner {
+    margin: 0;
+    height: 128px;
+    background: #fff;
+    position: relative;
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.logo h1 {
+  margin: 0;
+}
+.logo h1 a {
+  display: block;
+  width: 176px;
+  height: 88px;
+  text-indent: -900000em;
+  overflow: hidden;
+  background: #fff url(../imgs/logo.png);
+  background-size: 176px 88px
+}
+.mainnav {
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+
+.search {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+
+.container .row-fluid .leftedge {
+  margin-left: 20px;
+}
+.container .row-fluid .rightedge {
+  margin-right: 20px;
+}
+
+.footer {
+  background: #000;
+  border-top: 1px solid #444;
+  clear: both;
+}
+footer div {
+  text-align: center;
+  color: #888;
+}
+.breaker {
+  clear: both;
+}
+#subNav li {
+  background: #efefef;
+}
+img.left {
+  float: left;
+  margin-right: 20px;
+}
+img.right {
+  float: right;
+  margin-left: 20px;
+}
+
+
+/* home page */
+
+.feature {
+  width: 46%;
+  float: left;
+  margin-right: 3%;
+}
+.feature.wide {
+  width: 100%;
+  margin-right: 0;
+  float: left;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .fauxbody {
+    max-width: 724px;
+  }
+}
+@media (max-width: 767px) {
+  .strap {
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .feature {
+    float: none;
+    width: auto;
+    margin-right: auto;
+  }
+  .strap {
+    height: auto;
+  }
+  .strap img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
