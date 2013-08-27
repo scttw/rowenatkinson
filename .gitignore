@@ -23,3 +23,4 @@ xhprof_runs.php
 silverstripe-cache/
 vendor/
 composer.phar
+framework/error_log
