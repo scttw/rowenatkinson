@@ -13,3 +13,6 @@
 [submodule "multiform"]
 	path = multiform
 	url = https://github.com/silverstripe/silverstripe-multiform.git
+[submodule "queuedjobs"]
+	path = queuedjobs
+	url = https://github.com/nyeholt/silverstripe-queuedjobs.git
