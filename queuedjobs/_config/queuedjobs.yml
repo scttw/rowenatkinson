@@ -1,9 +1,0 @@
----
-Name: queuedjobsettings
----
-Injector:
-  QueueHandler: 
-    class: DefaultQueueHandler
-QueuedJobService:
-  dependencies: 
-    queueHandler: %$QueueHandler

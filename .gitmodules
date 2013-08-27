@@ -1,3 +1,24 @@
 [submodule "eventcalendar"]
 	path = eventcalendar
 	url = https://github.com/tractorcow/silverstripe-event-calendar.git
+[submodule "advancedworkflow"]
+	path = advancedworkflow
+	url = https://github.com/silverstripe-australia/advancedworkflow.git
+[submodule "blog"]
+	path = blog
+	url = https://github.com/silverstripe/silverstripe-blog.git
+[submodule "multivaluefield"]
+	path = multivaluefield
+	url = https://github.com/nyeholt/silverstripe-multivaluefield.git
+[submodule "multiform"]
+	path = multiform
+	url = https://github.com/silverstripe/silverstripe-multiform.git
+[submodule "queuedjobs"]
+	path = queuedjobs
+	url = https://github.com/nyeholt/silverstripe-queuedjobs.git
+[submodule "userforms"]
+	path = userforms
+	url = https://github.com/silverstripe/silverstripe-userforms.git
+[submodule "timepickerfield"]
+	path = timepickerfield
+	url = https://github.com/sheadawson/silverstripe-timepickerfield.git
