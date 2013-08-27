@@ -7,3 +7,9 @@
 [submodule "blog"]
 	path = blog
 	url = https://github.com/silverstripe/silverstripe-blog.git
+[submodule "multivaluefield"]
+	path = multivaluefield
+	url = https://github.com/nyeholt/silverstripe-multivaluefield.git
+[submodule "multiform"]
+	path = multiform
+	url = https://github.com/silverstripe/silverstripe-multiform.git
