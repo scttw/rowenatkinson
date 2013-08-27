@@ -19,3 +19,6 @@
 [submodule "userforms"]
 	path = userforms
 	url = https://github.com/silverstripe/silverstripe-userforms.git
+[submodule "timepickerfield"]
+	path = timepickerfield
+	url = https://github.com/sheadawson/silverstripe-timepickerfield.git
