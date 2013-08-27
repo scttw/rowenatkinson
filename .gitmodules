@@ -16,3 +16,6 @@
 [submodule "queuedjobs"]
 	path = queuedjobs
 	url = https://github.com/nyeholt/silverstripe-queuedjobs.git
+[submodule "userforms"]
+	path = userforms
+	url = https://github.com/silverstripe/silverstripe-userforms.git
