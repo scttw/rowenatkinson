@@ -1,3 +1,9 @@
 [submodule "eventcalendar"]
 	path = eventcalendar
 	url = https://github.com/tractorcow/silverstripe-event-calendar.git
+[submodule "advancedworkflow"]
+	path = advancedworkflow
+	url = https://github.com/silverstripe-australia/advancedworkflow.git
+[submodule "blog"]
+	path = blog
+	url = https://github.com/silverstripe/silverstripe-blog.git
