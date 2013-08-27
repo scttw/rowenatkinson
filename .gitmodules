@@ -1,0 +1,3 @@
+[submodule "eventcalendar"]
+	path = eventcalendar
+	url = https://github.com/tractorcow/silverstripe-event-calendar.git
