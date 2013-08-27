@@ -21,10 +21,12 @@ class Podcast extends Page {
       $fields->addFieldToTab('Root.Main', new TextField('Duration'), 'Content');
       $fields->addFieldToTab('Root.Main', $dateField = new DateField('Date','Record Date (for example: 20/12/2010)'), 'Content');
       $dateField->setConfig('showcalendar', true);
-      $fields->addFieldToTab('Root.Main', $dateField, 'Content');
+      //$fields->addFieldToTab('Root.Main', $dateField, 'Content');
       $fields->addFieldToTab('Root.Main', new DateField('Date','Record Date (for example: 20/12/2010)'), 'Content');
       $fields->addFieldToTab('Root.Main', new TextField('Artist'), 'Content');
-      $fields->addFieldToTab('Root.Main', new UploadField('Audio'), 'Content');
+      $fields->addFieldToTab('Root.Main', $uploadField = new UploadField('Audio'), 'Content');
+      $uploadField->setFolderName('podcastfiles');
+      $uploadField->getValidator()->setAllowedExtensions(array('mp3', 'm4a'));
        //remove Content field
       $fields->removeByName('Content');
       $fields->removeByName('Metadata');

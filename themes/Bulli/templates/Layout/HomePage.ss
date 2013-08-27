@@ -1,9 +1,4 @@
-			<div class="strap row-fluid">
-                <% if $HasBanner %>
-                    <div class="span12" style="margin-top: 20px;">$BannerContent</div>
-                <% end_if %>
-            </div>
-            <div class="row-fluid">&nbsp;</div>
+
             <div class="row-fluid masonry">
 					<% loop HomepageFeatures %>
                     <div class="<% if $FullWidth %>wide<% else %>narrow<% end_if %> feature">
