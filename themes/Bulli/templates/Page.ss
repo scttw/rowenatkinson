@@ -28,6 +28,11 @@
         <div class="container" id="container">
 
 <% include Header %>
+            <div class="strap row-fluid">
+                <% if $HasBanner %>
+                    <div class="span12" style="margin-top: 20px;">$BannerContent</div>
+                <% end_if %>
+            </div>
     $Layout
 <% include Footer %>
         </div><!-- container -->
