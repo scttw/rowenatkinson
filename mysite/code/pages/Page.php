@@ -1,12 +1,12 @@
 <?php
 class Page extends SiteTree {
 	public static $db = array(
-		'PageStyle' => "Enum('orange, blue, red')",
+		'PageStyle' => "Enum('orange, blue, lightblue, green, red')",
 		'HasBanner' => 'boolean',
 		'BannerContent' => 'HTMLText'
 	);
 	static $defaults = array(
-		'PageStyle' => 'orange',
+		'PageStyle' => 'green',
 		'HasBanner' => 0
 	);
 

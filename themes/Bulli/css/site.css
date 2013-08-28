@@ -25,11 +25,18 @@ html, body {
     background: #ff8000 url(../imgs/headerbg.gif) top left repeat-x;
     z-index: 0;
 }
+
 .orange .bgStretcher {
   background-color: #ff8000;
 }
+.green .bgStretcher {
+  background-color: #bfd62f;
+}
 .blue .bgStretcher {
   background-color: #000765;
+}
+.lightblue .bgStretcher {
+  background-color: #00bdf2;
 }
 .red .bgStretcher {
   background-color: #7b0707;
@@ -37,9 +44,15 @@ html, body {
 .search label {
   display: none;
 }
-.search input[type="text"] {
-  width: ;
+
+a {
+  color: #00bdf2;
 }
+a:hover,
+a:focus {
+  color: #0088cc;
+}
+
 ul.nav {
   background: #fff;
 }
@@ -60,6 +73,12 @@ ul.nav {
 }
 .blue .strap {
   background: #000765;
+}
+.lightblue .strap {
+  background: #00bdf2;
+}
+.green .strap {
+  background: #bfd62f;
 }
 .red .strap {
   background: #7b0707;
@@ -180,5 +199,5 @@ img.right {
     height: auto;
   }
 }
-
+.spacer { height: 20px;}
 

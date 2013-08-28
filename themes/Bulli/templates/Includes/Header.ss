@@ -27,3 +27,9 @@
                     $SearchForm
                 </div>
             </header>
+            <div class="strap row-fluid">
+                <% if $HasBanner %>
+                    <div class="span12" style="margin-top: 20px;">$BannerContent</div>
+                <% end_if %>
+            </div>
+            <div class="row-fluid spacer"></div>
