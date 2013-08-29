@@ -19,3 +19,6 @@
 [submodule "timepickerfield"]
 	path = timepickerfield
 	url = https://github.com/sheadawson/silverstripe-timepickerfield.git
+[submodule "event_calendar"]
+	path = event_calendar
+	url = https://github.com/unclecheese/silverstripe-event-calendar.git
