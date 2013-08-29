@@ -13,7 +13,7 @@ class PodcastHolder extends Page {
 	public static $has_one = array(
 		'PodcastIcon' => 'Image'
 	);	
-
+  
 	   function getCMSFields() {
         $fields = parent::getCMSFields();
          
