@@ -1,3 +1,5 @@
+    <div class="row-fluid">
+        <div class="span8 lefstedge">
 <div class="podcast">
 <h2>$PodcastTitle</h2>
 $Description
@@ -13,7 +15,12 @@ $Description
 				<a class="podcast" href="<% if Audio %>$Audio.AbsoluteURL<% else %>$ExternalLink<% end_if %>"></a>
 			</audio> 
 		</p>
-		<p>$Date.Long - $Audio.getSize $Audio.getFileType</p>
+		<p class="muted"><i class="icon-headphones icon-white"></i> $Date.Long - $Audio.getSize $Audio.getFileType</p>
 	</div>
 <% end_control %>
 </div>
+	</div>
+    <div class="span3 pull-right" style="margin-right: 20px;">
+    	<% include SideBar %>
+    </div>
+    <div class="breaker"></div>

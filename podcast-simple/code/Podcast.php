@@ -6,11 +6,13 @@ class Podcast extends Page {
      'Summary' => 'Text',
      'Duration' => 'Text',
      'Date' => 'Date',
-     'Artist' => 'Text'
-   );
+     'Artist' => 'Text',
+     'ExternalLink' => 'Text'
+  );
    static $has_one = array(
      'Audio' => 'File'
    );
+   static $allowed_children = array('Podcast');
 
    function getCMSFields() {
       $fields = parent::getCMSFields();
@@ -21,12 +23,11 @@ class Podcast extends Page {
       $fields->addFieldToTab('Root.Main', new TextField('Duration'), 'Content');
       $fields->addFieldToTab('Root.Main', $dateField = new DateField('Date','Record Date (for example: 20/12/2010)'), 'Content');
       $dateField->setConfig('showcalendar', true);
-      //$fields->addFieldToTab('Root.Main', $dateField, 'Content');
-      $fields->addFieldToTab('Root.Main', new DateField('Date','Record Date (for example: 20/12/2010)'), 'Content');
       $fields->addFieldToTab('Root.Main', new TextField('Artist'), 'Content');
       $fields->addFieldToTab('Root.Main', $uploadField = new UploadField('Audio'), 'Content');
       $uploadField->setFolderName('podcastfiles');
       $uploadField->getValidator()->setAllowedExtensions(array('mp3', 'm4a'));
+      $fields->addFieldToTab('Root.Main', new TextField("ExternalLink", "or enter the link to an externally hosted MP3/M4a file (eg dropbox)", "Content") );
        //remove Content field
       $fields->removeByName('Content');
       $fields->removeByName('Metadata');

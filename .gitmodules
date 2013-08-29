@@ -1,6 +1,3 @@
-[submodule "eventcalendar"]
-	path = eventcalendar
-	url = https://github.com/tractorcow/silverstripe-event-calendar.git
 [submodule "advancedworkflow"]
 	path = advancedworkflow
 	url = https://github.com/silverstripe-australia/advancedworkflow.git
@@ -22,3 +19,6 @@
 [submodule "timepickerfield"]
 	path = timepickerfield
 	url = https://github.com/sheadawson/silverstripe-timepickerfield.git
+[submodule "event_calendar"]
+	path = event_calendar
+	url = https://github.com/unclecheese/silverstripe-event-calendar.git

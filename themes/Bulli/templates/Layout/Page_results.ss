@@ -1,8 +1,7 @@
-<% include Breadcrumbs %>
 
-<div id="content" class="searchResults">
-<% include SideBar %>
-    <div id="contentArea">
+
+<div class="row-fluid">
+    <div class="span12 lefstedge">
         <article>
     <h1>$Title</h1>
 
@@ -60,5 +59,7 @@
             $Form
             $PageComments
     </div><!-- contentArea-->
-    <div class="clearit"></div>
+
+                <div class="breaker"></div>
+                <div class="clearit"></div>
 </div><!-- content -->
