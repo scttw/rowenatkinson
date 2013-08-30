@@ -6,10 +6,15 @@ class HomepageFeature extends DataObject {
 	
 	public static $db = array(
 		'Title' => 'Varchar(100)',
-		'Stuff'		=> 'HTMLText',
+		'Feature'		=> 'HTMLText',
+		'Priority' => "Enum('1, 2, 3, 4, 5, 6, 7, 8, 9')",
 		'FullWidth' => 'boolean'
 	);
-	
+	static $default_sort = "Priority ASC"; 
+	static $defaults = array(
+		'Priority' => 5
+	);
+
 	public static $has_one = array(
 		'ParentPage'	=> 'Page'
 	);
