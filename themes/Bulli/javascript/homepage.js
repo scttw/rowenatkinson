@@ -3,6 +3,7 @@ Bulli.homepage = function () {
 	$(featurecontainer).masonry({
 	  itemSelector: '.feature'
 	});
+	featurecontainer.layout();
 }
 
 $(window).ready(Bulli.homepage());
