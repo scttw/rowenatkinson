@@ -83,7 +83,15 @@ ul.nav {
 .red .strap {
   background: #7b0707;
 }
-
+.strapfiller {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.strapfiller p {
+  margin: 0 0 10px 0 !important;
+  border: 1px solid transparent;
+}
 .no-banner .bgStretcher {
     height: 168px;
 }
@@ -179,6 +187,10 @@ img.right {
   .fauxbody {
     max-width: 724px;
   }
+  .strap img {
+    width: auto;
+    max-width: 10000px; 
+  }
 }
 @media (max-width: 767px) {
   .strap {
@@ -199,9 +211,15 @@ img.right {
     width: 100%;
     height: auto;
   }
+  input.span2.search-query {
+    width: 80px;
+  }
 }
 .spacer { height: 20px;}
 
 .dropdown-backdrop {
   position: static;
+}
+.mainnav {
+  z-index: 100;
 }

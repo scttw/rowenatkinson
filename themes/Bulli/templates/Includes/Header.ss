@@ -29,7 +29,7 @@
             </header>
             <div class="strap row-fluid">
                 <% if $HasBanner %>
-                    <div class="span12" style="margin-top: 20px;">$BannerContent</div>
+                    <div class="strapfiller"><div>$BannerContent</div></div>
                 <% end_if %>
             </div>
             <div class="row-fluid spacer"></div>
