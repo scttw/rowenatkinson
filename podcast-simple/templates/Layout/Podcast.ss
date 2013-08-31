@@ -8,6 +8,6 @@
 				<a class="podcast" href="<% if Audio %>$Audio.AbsoluteURL<% else %>$ExternalLink<% end_if %>"></a>
 			</audio> 
 		</p>
-		<p>$Date.Long - $Audio.getSize $Audio.getFileType</p>
+		<p>$Date.Long - <% if Audio %>$Audio.getSize $Audio.getFileType<% else %> MP3 Audio<% end_if %></p>
 	</div>
 </div>
