@@ -55,7 +55,7 @@ class PodcastHolder_Controller extends Page_Controller {
      $children = $this->Children();
      if( !$children )
         return null; 
-     $children->sort('Date');
+     $children->sort('Date', 'DESC');
      // return sorted set
      return $children;
   }
