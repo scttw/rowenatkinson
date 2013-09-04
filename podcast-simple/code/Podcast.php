@@ -12,7 +12,9 @@ class Podcast extends Page {
    static $has_one = array(
      'Audio' => 'File'
    );
-   static $allowed_children = array('Podcast');
+    static $allowed_children = "none";
+    static $can_be_root = false;
+    static $default_sort = "Date DESC"; 
 
    function getCMSFields() {
       $fields = parent::getCMSFields();

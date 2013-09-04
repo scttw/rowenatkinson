@@ -13,23 +13,25 @@ class PodcastHolder extends Page {
 	public static $has_one = array(
 		'PodcastIcon' => 'Image'
 	);	
+  static $allowed_children = array("Podcast");
+  static $default_child = "Podcast";
   
-	   function getCMSFields() {
-        $fields = parent::getCMSFields();
-         
-        $fields->addFieldToTab('Root.Main', new TextField('PodcastTitle'), 'Content');
-        $fields->addFieldToTab('Root.Main', new TextField('Copyright'), 'Content');
-        $fields->addFieldToTab('Root.Main', new TextAreaField('Description'), 'Content');
-        $fields->addFieldToTab('Root.Main', new TextField('PodcastOwner'), 'Content');
-        $fields->addFieldToTab('Root.Main', new EmailField('Email'), 'Content');
-        $fields->addFieldToTab('Root.Main', new TextField('Category'), 'Content');
-        $fields->addFieldToTab('Root.Main', new UploadField('PodcastIcon'), 'Content');
-         //remove Content field
-        $fields->removeByName('Content');
-        $fields->removeByName('Metadata');
-         
-        return $fields;
-    }
+  function getCMSFields() {
+    $fields = parent::getCMSFields();
+     
+    $fields->addFieldToTab('Root.Main', new TextField('PodcastTitle'), 'Content');
+    $fields->addFieldToTab('Root.Main', new TextField('Copyright'), 'Content');
+    $fields->addFieldToTab('Root.Main', new TextAreaField('Description'), 'Content');
+    $fields->addFieldToTab('Root.Main', new TextField('PodcastOwner'), 'Content');
+    $fields->addFieldToTab('Root.Main', new EmailField('Email'), 'Content');
+    $fields->addFieldToTab('Root.Main', new TextField('Category'), 'Content');
+    $fields->addFieldToTab('Root.Main', new UploadField('PodcastIcon'), 'Content');
+     //remove Content field
+    $fields->removeByName('Content');
+    $fields->removeByName('Metadata');
+     
+    return $fields;
+  }
 
 	
 }
