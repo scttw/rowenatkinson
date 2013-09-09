@@ -15,6 +15,9 @@ class Podcast extends Page {
     static $allowed_children = "none";
     static $can_be_root = false;
     static $default_sort = "Date DESC"; 
+    static $defaults = array(
+      'ShowInMenus' => false
+    );
 
    function getCMSFields() {
       $fields = parent::getCMSFields();
