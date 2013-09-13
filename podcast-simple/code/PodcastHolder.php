@@ -51,13 +51,13 @@ class PodcastHolder_Controller extends Page_Controller {
     return str_replace("http://", "itp://", $this->AbsoluteLink()."rss");
   }
   public function PodcastList(){
-
-     $children = $this->Children();
-     if( !$children )
-        return null; 
-     $children->sort('Date', 'DESC');
-     // return sorted set
-     return $children;
+    //$children = $this->Children();
+    $children = DataObject::get('Podcast', "ParentID = $this->ID"); 
+    if( !$children )
+      return null; 
+      $children->sort('Date', 'DESC');
+      $children->limit(15);
+    return $children;
   }
 }
 
