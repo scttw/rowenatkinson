@@ -2,18 +2,19 @@
 class HomePage extends Page {
 
 	public static $db = array(
+		'EndText' => 'HTMLText'
 	);	
 	public static $has_many = array(
-		'HomepageFeatures' => 'HomepageFeature'
+		'HomeImages' => 'HomeImage'
 	);
-	//static $icon = "framework/docs/en/tutorials/_images/treeicons/home-file.gif";
+	static $icon = "framework/docs/en/tutorials/_images/treeicons/home-file.gif";
 	
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
 
-		$fields->addFieldToTab('Root.Features', new GridField('HomepageFeatures', 'Homepage Feature', $this->HomepageFeatures(), GridFieldConfig_RecordEditor::create()));
+		$fields->addFieldToTab('Root.Images', new GridField('HomeImages', 'Homepage Feature Images', $this->HomeImages(), GridFieldConfig_RecordEditor::create()));
 		//$fields->addFieldToTab('Root.Images', new GridField('CarouselImages', 'Carousel Images', $this->CarouselImages(), GridFieldConfig_RecordEditor::create()));
-
+		$fields->addFieldToTab('Root.Main', new HTMLEditorField('EndText'));
 		return $fields;
 	}
 
@@ -24,10 +25,8 @@ class HomePage_Controller extends Page_Controller {
 
 	public function init() {
 		parent::init();
-
-        Requirements::javascript('//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.1/masonry.pkgd.js');
-        Requirements::javascript('themes/Bulli/javascript/homepage.js');
-
+        Requirements::javascript('themes/rowenatkinson/javascript/homepage.js');
 	}
+
 }
 
